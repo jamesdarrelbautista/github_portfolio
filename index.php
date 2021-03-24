@@ -7,6 +7,6 @@
     <title>Hello, Pendleton!</title>
 </head>
 <body>
-    Hello, Pendleton!
+    <h1>Hello, Pendleton!</h1>
 </body>
 </html>
