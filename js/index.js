@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("h1").hover(function () {
-        $(this).animate({left: '150px'},'fast');
+        $(this).animate({left: '30px'},'fast');
     },function () {
-        $(this).animate({left: '-=150px'},'fast');
+        $(this).animate({left: '-=30px'},'fast');
     });
 });
