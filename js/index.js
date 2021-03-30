@@ -4,14 +4,17 @@ $(document).ready(function () {
     // },function () {
     //     $(this).animate({left: '-=30px'},'fast');
     // });
-    $('h1').click(function () {
-        $("#pendleton").toggle(500);
-        $("#james").toggle(500);   
-    });
+    // $('h1').click(function () {
+    //     $("#pendleton").toggle(500);
+    //     $("#james").toggle(500);   
+    // });
 
-    $('div:first').hover(function () {
-        $('div').removeClass("text-white bg-primary");
-    }, function () {
-        $('div').addClass("text-white bg-primary");
-    });
+    // $('div:first').hover(function () {
+    //     $('div').removeClass("text-white bg-primary");
+    // }, function () {
+    //     $('div').addClass("text-white bg-primary");
+    // });
+    $('#james').animate({
+        fontSize: '70px'
+    },1000);
 });
