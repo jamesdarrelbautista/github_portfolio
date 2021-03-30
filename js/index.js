@@ -14,7 +14,12 @@ $(document).ready(function () {
     // }, function () {
     //     $('div').addClass("text-white bg-primary");
     // });
-    $('#james').animate({
-        fontSize: '70px'
-    },1000);
+    $('h1').slideToggle(800,function () {
+        $('#james').animate({
+            fontSize: '80px'
+        },700,function () {
+            $('.intro').fadeIn("slow");
+        });
+    })
+    
 });
