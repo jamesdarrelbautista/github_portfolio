@@ -14,11 +14,13 @@ $(document).ready(function () {
     // }, function () {
     //     $('div').addClass("text-white bg-primary");
     // });
-    $('h1').slideToggle(800,function () {
+    $('h1').fadeIn(500,function () {
         $('#james').animate({
             fontSize: '80px'
         },700,function () {
-            $('.intro').fadeIn("slow");
+            $('.intro').slideDown("slow",function () {
+                $('#conan').fadeIn(500);  
+            });
         });
     })
     
