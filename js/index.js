@@ -17,10 +17,9 @@ $(document).ready(function () {
     $('h1').fadeIn(500,function () {
         $('#james').animate({
             fontSize: '80px'
-        },700,function () {
-            $('.intro').slideDown("slow",function () {
-                $('#conan').fadeIn(500);  
-            });
+        },2500,function () {
+            $('#conan').fadeIn(900);  
+            $('.intro').slideDown("slow");
         });
     })
     
